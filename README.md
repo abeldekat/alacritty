@@ -15,6 +15,7 @@ import = ["/home/CHANGE/.config/alacritty/colors.toml", "/home/CHANGE/.config/al
 ```
 
 `Alacritty.toml` imports `colors.toml` and `device.toml`.
+
 Link either `pc.toml` or `laptop.toml` to `device.toml`:
 
 ```sh
@@ -23,5 +24,5 @@ ln -sf pc.toml device.toml
 
 ## Defaults
 
-Colors: `catppuccin-frappe`
-Font: `Jetbrains Mono Medium`
+- Colors: `catppuccin-frappe`
+- Font: `Jetbrains Mono Medium`

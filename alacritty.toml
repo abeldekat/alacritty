@@ -1,0 +1,47 @@
+import = ["/home/CHANGE/.config/alacritty/colors.toml", "/home/CHANGE/.config/alacritty/device.toml"]
+live_config_reload = true
+working_directory = "None"
+
+[bell]
+animation = "EaseOutExpo"
+color = "#ffffff"
+duration = 0
+
+[colors]
+draw_bold_text_with_bright_colors = false
+
+[cursor]
+unfocused_hollow = true
+vi_mode_style = "Block"
+
+[cursor.style]
+blinking = "Off"
+shape = "Block"
+
+[env]
+TERM = "alacritty"
+
+[font.glyph_offset]
+x = 0
+y = 0
+
+[font.normal]
+family = "JetBrains Mono"
+style = "Medium"
+
+[scrolling]
+history = 10000
+multiplier = 3
+
+[selection]
+save_to_clipboard = false
+semantic_escape_chars = ",│`|:\"' ()[]{}<>\t"
+
+[window]
+dynamic_title = true
+title = "Alacritty"
+opacity = 1.0
+
+[window.class]
+general = "Alacritty"
+instance = "Alacritty"
